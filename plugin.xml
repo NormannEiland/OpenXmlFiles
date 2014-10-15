@@ -13,11 +13,11 @@
 	
     <!-- ios -->
     <platform name="ios">
-        <config-file target="config.xml" parent="/*">
+        <!--<config-file target="config.xml" parent="/*">
             <feature name="OpenXmlFiles">
                 <param name="ios-package" value="OpenXmlFiles"/>
             </feature>
-        </config-file>
+        </config-file>-->
 
         <config-file target="*-Info.plist" parent="UTExportedTypeDeclarations">
             <array>
